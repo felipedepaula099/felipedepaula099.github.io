@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px !important;
+}
+.menu-principal {
+    background-color: rgb(39, 39, 39);
+    height: 60px;
+}
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 12px;
+    width: 70%;
+}
+.redes-sociais ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+.redes-sociais {
+    width: 20%;
+    float: right;
+}
+.header-2 {
+    background-color: rgb(255, 255, 255);
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.menu ul li {
+    display: inline-block;
+    color: #575757;
+    margin-left: 17px;
+    height: 47px;
+}
+.menu ul li:hover {
+    border-bottom: 2.5px dotted rgb(40, 100, 189);
+}
+.menu ul li a:hover {
+    color:rgb(40, 100, 189);
+}
+.menu ul li a {
+    color: #575757;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input:hover {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.busca input {
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 33px;
+    width: 175px;
+    padding-left: 17px;
+    margin-top: 10px;
+    border: 1px solid #969696;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid rgb(228, 228, 228);
+}
+button.slick-prev {
+    font-size: 0px;
+    border: 0px;
+    width: 50px;
+    height: 55px;
+    background-color: transparent;
+    background-image: url('../img/arrowE.png');
+    position: absolute;
+    z-index: 9;
+    top: 39%;
+    left: 1%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: 0px;
+    width: 50px;
+    height: 55px;
+    background-color: transparent;
+    background-image: url('../img/arrowD.png');
+    position: absolute;
+    z-index: 9;
+    top: 39%;
+    right: 1%;
+}
+.slider-principal {
+    width: 100%;
+}
+ul.slick-dots li {
+    display: inline-block;
+    font-size: 0px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+ul.slick-dots li.slick-active {
+    background-color: rgb(40, 100, 189);
+}
