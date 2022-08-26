@@ -68,7 +68,7 @@ main {
     border-radius: 3px;
 }
 .busca input {
-    background-image: url('../img/search.png');
+    background-image: url('search.png');
     background-repeat: no-repeat;
     background-position: 95%;
     height: 33px;
@@ -92,7 +92,7 @@ button.slick-prev {
     width: 50px;
     height: 55px;
     background-color: transparent;
-    background-image: url('../img/arrowE.png');
+    background-image: url('arrowE.png');
     position: absolute;
     z-index: 9;
     top: 39%;
@@ -104,7 +104,7 @@ button.slick-next {
     width: 50px;
     height: 55px;
     background-color: transparent;
-    background-image: url('../img/arrowD.png');
+    background-image: url('arrowD.png');
     position: absolute;
     z-index: 9;
     top: 39%;
