@@ -10,7 +10,7 @@ ul {
     background-color: rgb(39, 39, 39);
     height: 60px;
 }
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -38,7 +38,7 @@ main {
 }
 .menu ul li {
     display: inline-block;
-    color: #575757;
+    color: #666666;
     margin-left: 17px;
     height: 47px;
 }
@@ -49,7 +49,7 @@ main {
     color:rgb(40, 100, 189);
 }
 .menu ul li a {
-    color: #575757;
+    color: #666666;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -86,42 +86,71 @@ main {
     height: 80px;
     border-bottom: 3px solid rgb(228, 228, 228);
 }
+.slider-principal {
+    width: 100%;
+}
 button.slick-prev {
     font-size: 0px;
     border: 0px;
-    width: 50px;
-    height: 55px;
+    width: 250px;
+    height: 100%;
     background-color: transparent;
-    background-image: url('arrowE.png');
     position: absolute;
     z-index: 9;
-    top: 39%;
-    left: 1%;
+    top: 0%;
+    left: 0%;
 }
 button.slick-next {
     font-size: 0px;
     border: 0px;
-    width: 50px;
-    height: 55px;
+    width: 260px;
+    height: 100%;
     background-color: transparent;
-    background-image: url('arrowD.png');
     position: absolute;
     z-index: 9;
-    top: 39%;
-    right: 1%;
+    top: 0%;
+    right: 0%;
 }
-.slider-principal {
-    width: 100%;
+.slick-list {
+    width: 100%!important;
 }
-ul.slick-dots li {
-    display: inline-block;
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
     font-size: 0px;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50%;
+    border: 4px solid white;
     width: 20px;
     height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
 }
-
-ul.slick-dots li.slick-active {
-    background-color: rgb(40, 100, 189);
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 95%;
+}
+li.slick-active button {
+    background: rgb(40, 100, 189);
+}
+.slick-dots li {
+    padding-left: 7px;
+    display: inline-block;
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque p {
+    font-size: 15px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    color: #666666;
+}
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #4b4b4b;
 }
